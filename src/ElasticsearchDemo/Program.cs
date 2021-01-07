@@ -7,7 +7,7 @@ namespace ElasticsearchDemo
     {
         static void Main(string[] args)
         {
-            var result=Test.Aggregations().Result;
+            Test.AggregationsCardinality();
             Console.WriteLine("Hello World!");
         }
     }
